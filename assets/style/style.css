@@ -1,0 +1,59 @@
+
+body{
+    background-color: #16151D;
+}
+
+.nav-top{
+    background-color: #16151D;
+}
+
+.nav-area{
+    background-color: #B8180A;
+    text-align: left;
+    height: 55px;
+    margin: 0;
+    padding: 0px;
+    font-size: 30px;
+}
+
+header ul li {
+    text-decoration: none;
+    text-align: left;
+}
+
+.card-groub{
+    background-color: #16151D;
+    border-radius: 0;
+    border: 0;
+    border-bottom: 1px solid #B8180A;
+}
+
+.card{
+    text-align: center;
+    background-color: #222222;
+    color: white;
+}
+
+.logo-hero{
+    height: 80px;
+}
+
+.form-control{
+    width: 300px;
+}
+.checked {
+    color: orange;
+  }
+
+.empty-area{
+    background-color: #B8180A;
+    margin-top: 20px;
+    padding-bottom: 0;
+}
+
+.footerr{
+    background-color: #282828;
+    text-align: center;
+    padding: 0;
+    /* color: white; */
+}
