@@ -10,7 +10,10 @@ h1 {
   /* font-size: 36px; */
   font-weight: bold;
 }
-
+body {
+  background-color: #16151d;
+  /* background-color: #f5f5f5; */
+}
 /* header top */
 .logo-hero {
   width: 40%;
@@ -47,6 +50,17 @@ h1 {
 .nav-item a {
   color: #fff;
   font-weight: bold;
+  font-size: 20pt;
+}
+
+.search-form-mob {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  /* .logo-top-hero {
+    width: 50%;
+  } */
 }
 
 @media screen and (max-width: 576px) {
@@ -54,19 +68,38 @@ h1 {
     display: flex;
     justify-content: center;
   }
+
+  .search-form {
+    display: none;
+    width: 100%;
+  }
+
+  .search-form-mob {
+    display: block;
+    width: 80%;
+  }
 }
 /* body */
-body {
-  background-color: #16151d;
-  /* background-color: #f5f5f5; */
+.body-area {
+  padding: 0 10px 0 0 !important;
+  margin: 0 0 0 0 !important;
 }
 
+@media screen and (max-width: 768px) {
+  .body-area {
+    padding: 0 0 0 0 !important;
+    margin: 0 0 0 0 !important;
+  }
+}
 /* carousel popular */
 .carousel-popular {
   width: 100%;
   height: 100%;
-  background-color: #16151d;
+  background-color: #222222;
   color: #fff;
+  border: 1px solid #d6d6d6;
+  padding: 0 !important;
+  /* border-radius: 10px; */
 }
 
 .img-carousel img {
@@ -85,6 +118,11 @@ body {
 }
 
 /* card popular */
+.box-popular {
+  border: 1px solid #d6d6d6;
+  background-color: #222222;
+}
+
 .card-popular {
   color: #fff;
 }
@@ -125,6 +163,15 @@ body {
 }
 
 /* last update */
+.row-asd {
+  padding: 0;
+  margin: 0;
+}
+.box-last-update {
+  background-color: #222222;
+  border: 1px solid #d6d6d6;
+  margin-top: 10px;
+}
 .last-update {
   background-color: #16151d;
   color: #fff;
@@ -158,6 +205,11 @@ body {
   padding: 0;
   margin: 0;
 }
+@media screen and (max-width: 768px) {
+  .section-area {
+    padding-top: 10px;
+  }
+}
 /* chat */
 .chat-area {
   background-color: #fff;
@@ -188,4 +240,36 @@ body {
   text-align: center;
   padding: 0;
   /* color: white; */
+}
+
+/* button */
+
+.activee {
+  background-color: aqua !important;
+}
+.active,
+.btn:hover {
+  background-color: #282828 !important;
+  color: white;
+}
+
+.btn-set {
+  border: none;
+  outline: none;
+  padding: 10px 16px;
+  background-color: #b8180a;
+  cursor: pointer;
+  font-size: 18px;
+  border-radius: 0;
+}
+.navbar-expand-md {
+  padding: 0;
+}
+@media screen and (max-width: 576px) {
+  /* .btn-set {
+    width: 400px;
+  } */
+  .navbar-expand-md {
+    padding-top: 10px;
+  }
 }

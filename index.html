@@ -35,50 +35,64 @@
     <div class="container-fluid">
       <div class="container-sm nav-top">
         <nav class="navbar navbar-dark">
-          <img src="./assets/img/logo-heroo.png" alt="logo" class="logo-hero" />
-          <form class="d-flex top-form">
-            <input
-              class="form-control me-2"
-              type="search"
-              placeholder="Search"
-              aria-label="Search"
-            />
-            <img src="./assets/img/user.png" alt="search" class="search-icon" />
-          </form>
+            <img src="./assets/img/logo-heroo.png" alt="logo" class="logo-hero" />
+          <div class="search-form col-lg-4">
+            <form class="d-flex top-form">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <img src="./assets/img/user.png" alt="search" class="search-icon" />
+            </form>
+          </div>
         </nav>
       </div>
     </div>
 
     <!-- navbar -->
     <div class="container-fluid nav-area">
-      <div class="container-sm">
+      <div class="container-sm area-container-sm">
         <nav class="navbar navbar-expand-md">
-          <button
-            class="navbar-toggler"
-            type="button"
-            style="background-color: #fff; border: 1px solid #fff"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
+          <div>
+            <button
+              class="navbar-toggler"
+              type="button"
+              style="background-color: #fff; border: 1px solid #fff"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+          <div class="search-form-mob">
+            <form class="d-flex top-form">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <img src="./assets/img/user.png" alt="search" class="search-icon" />
+            </form>
+          </div>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <button class="btn btn-secondary btn-set active">Home</button>
+                
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#"
-                  >About</a
-                >
+                <button class="btn btn-secondary btn-set ">Comic</button>
+
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#"
-                  >Other</a
-                >
+                <button class="btn btn-secondary btn-set ">About</button>
+     
               </li>
             </ul>
           </div>
@@ -205,90 +219,94 @@
         </button>
       </div>
     </div>
+    <!-- end carousel popular -->
 
     <!-- body -->
     <div class="container-sm card-popular" style="margin-top: 10px">
       <div class="row">
-        <div class="col-lg-9 col-sm-12 col-12">
+        <div class="body-area col-lg-9 col-sm-12 col-12">
     <!-- card popular -->
-          <h1>Popular</h1>
-          <div class="row row-card">
-            <div class="col-card-set col-sm-3 col-6">
-              <div class="card card-text card-popular-set">
-                <img
-                  src="./assets/img/image 14.png"
-                  class="card-img-top"
-                  alt="..."
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">TPB (Part 3)<br />Chapter 25</p>
-                  <span class="fa fa-star checked"></span>
-                  <span class="fa fa-star checked"></span>
-                  <span class="fa fa-star checked"></span>
-                  <span class="fa fa-star"></span>
-                  <span class="fa fa-star"></span>
-                </div>
-              </div>
-            </div>
-            <div class="col-card-set col-sm-3 col-6">
-              <div class="card card-popular-set">
-                <img
-                  src="./assets/img/image 24.png"
-                  class="card-img-top"
-                  alt="..."
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">TPB (Part 3)<br />Chapter 25</p>
-                  <span class="fa fa-star checked"></span>
-                  <span class="fa fa-star checked"></span>
-                  <span class="fa fa-star checked"></span>
-                  <span class="fa fa-star"></span>
-                  <span class="fa fa-star"></span>
-                </div>
-              </div>
-            </div>
-            <div class="col-card-set col-sm-3 col-6">
-              <div class="card card-popular-set">
-                <img
-                  src="./assets/img/image 14.png"
-                  class="card-img-top"
-                  alt="..."
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">TPB (Part 3)<br />Chapter 25</p>
-                  <span class="fa fa-star checked"></span>
-                  <span class="fa fa-star checked"></span>
-                  <span class="fa fa-star checked"></span>
-                  <span class="fa fa-star"></span>
-                  <span class="fa fa-star"></span>
-                </div>
-              </div>
-            </div>
-            <div class="col-card-set col-sm-3 col-6">
-              <div class="card card-popular-set">
-                <img
-                  src="./assets/img/image 14.png"
-                  class="card-img-top"
-                  alt="..."
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">TPB (Part 3)<br />Chapter 25</p>
-                  <span class="fa fa-star checked"></span>
-                  <span class="fa fa-star checked"></span>
-                  <span class="fa fa-star checked"></span>
-                  <span class="fa fa-star"></span>
-                  <span class="fa fa-star"></span>
-                </div>
-              </div>
+    <div class="box-popular">
+      <h1 style="border: 1px solid #fff;">Popular</h1>
+      <div class="row row-card">
+        <div class="col-card-set col-sm-3 col-6">
+          <div class="card card-text card-popular-set">
+            <img
+              src="./assets/img/image 14.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">TPB (Part 3)<br />Chapter 25</p>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
             </div>
           </div>
+        </div>
+        <div class="col-card-set col-sm-3 col-6">
+          <div class="card card-popular-set">
+            <img
+              src="./assets/img/image 24.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">TPB (Part 3)<br />Chapter 25</p>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+            </div>
+          </div>
+        </div>
+        <div class="col-card-set col-sm-3 col-6">
+          <div class="card card-popular-set">
+            <img
+              src="./assets/img/image 14.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">TPB (Part 3)<br />Chapter 25</p>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+            </div>
+          </div>
+        </div>
+        <div class="col-card-set col-sm-3 col-6">
+          <div class="card card-popular-set">
+            <img
+              src="./assets/img/image 14.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">TPB (Part 3)<br />Chapter 25</p>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
           <!-- last update -->
-          <h1 style="color: #fff">Last Update</h1>
-            <div class="row">
+        <div class="box-last-update">
+          <h1 style="color: #fff; border: 1px solid #fff;">Last Update</h1>
+            <div class="row row-asd">
               <div class="col-md-6 col-12 card-update">
                 <div class="row">
                   <div class="col-5 img-update">
@@ -307,42 +325,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-md-6 col-12 card-update">
-                <div class="row">
-                  <div class="col-5 img-update">
-                    <img src="./assets/img/image 24.png" alt="" srcset="" />
-                  </div>
-                  <div class="col-7 update-des">
-                    <h1>Justice</h1>
-                    <ul style="padding: 0">
-                      Gendre :
-                      <a href="https://www.youtube.com/"> youtube</a
-                      >,
-                      <a href="https://www.youtube.com/"> youtube</a>
-                      ,
-                      <a href="https://www.youtube.com/"> youtube</a>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-6 col-12 card-update">
-                <div class="row">
-                  <div class="col-5 img-update">
-                    <img src="./assets/img/image 24.png" alt="" srcset="" />
-                  </div>
-                  <div class="col-7 update-des">
-                    <h1>Justice</h1>
-                    <ul style="padding: 0">
-                      Gendre :
-                      <a href="https://www.youtube.com/"> youtube</a
-                      >,
-                      <a href="https://www.youtube.com/"> youtube</a>
-                      ,
-                      <a href="https://www.youtube.com/"> youtube</a>
-                    </ul>
-                  </div>
-                </div>
-              </div>
+              
               <div class="col-md-6 col-12 card-update">
                 <div class="row">
                   <div class="col-5 img-update">
@@ -362,9 +345,11 @@
                 </div>
               </div>
             </div>
+        </div>
             <!-- end body -->
         </div>
-        <div class="col-lg-3 col-sm-12 col-12 ">
+        <!-- section area -->
+        <div class="section-area col-lg-3 col-sm-12 col-12 ">
             <div class="section-area">
               <div class="chat-area  " >
                 <div class="chat-header">
@@ -411,6 +396,7 @@
       </div>
     </div>
 
+<script src="/assets/js/index.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
