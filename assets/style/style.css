@@ -5,7 +5,6 @@
   box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
   text-decoration: none;
-  font-family: Roboto;
 }
 h1 {
   /* font-size: 2.5em; */
@@ -60,6 +59,14 @@ body {
 }
 .nav-navbar {
   padding: 0 !important;
+}
+
+.btn-color-orange {
+  color: #b8180a;
+}
+
+.btn-color-white {
+  color: #fff;
 }
 
 @media screen and (max-width: 768px) {

@@ -26,4 +26,11 @@
   color: white;
   padding-left: 5px;
 }
+
+@media screen and (max-width: 576px) {
+  .container-mob {
+    padding: 0;
+  }
+}
+
 /* d-flex justify-content-center text-light flex-column align-items-center */
