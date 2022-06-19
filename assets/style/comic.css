@@ -63,6 +63,9 @@
 .box-area-des h1 {
   color: #b8180a;
 }
+.box-area-des img {
+  width: 100%;
+}
 .gendre-des {
   color: #b8180a;
 }
@@ -75,11 +78,12 @@
   text-decoration: none;
 }
 /* end box des area */
-/* area eps */
+/* area issue */
 .box-area-eps {
   margin-top: 10px;
   border: 1px solid #fff;
   padding: 10px;
+  background-color: #282828;
 }
 .box-area-eps button {
   width: 100%;
@@ -118,4 +122,4 @@
   align-items: center;
 }
 
-/* end area eps */
+/* end area issue */

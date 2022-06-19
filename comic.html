@@ -55,55 +55,49 @@
     <!-- navbar -->
     <div class="container-fluid nav-area">
       <div class="container-sm area-container-sm">
-        <nav class="navbar navbar-expand-md">
-          <div>
-            <button
-              class="navbar-toggler"
-              type="button"
-              style="background-color: #fff; border: 1px solid #fff"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
+        
+        <div class="nav-navbar navbar navbar-expand-sm " >
+          <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
+            <div class="search-form-mob">
+              <form class="d-flex top-form">
+                <input
+                  class="form-control me-2"
+                  type="search"
+                  placeholder="Search"
+                  aria-label="Search"
+                />
+                <img src="./assets/img/user.png" alt="search" class="search-icon" />
+              </form>
+            </div>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a href="./index.html" class="btn btn-secondary btn-set">Home</a>
+                  
+                </li>
+                <li class="nav-item">
+                  <a href="./menuComic.html" class="btn btn-secondary btn-set active">Comic</a>
+  
+                </li>
+                <li class="nav-item">
+                  <a href="./about.html" class="btn btn-secondary btn-set ">About</a>
+       
+                </li>
+                <li class="nav-item">
+                  <a href="./donate.html" class="btn btn-secondary btn-set ">Donate</a>
+       
+                </li>
+              </ul>
+            </div>
           </div>
-          <div class="search-form-mob">
-            <form class="d-flex top-form">
-              <input
-                class="form-control me-2"
-                type="search"
-                placeholder="Search"
-                aria-label="Search"
-              />
-              <img src="./assets/img/user.png" alt="search" class="search-icon" />
-            </form>
-          </div>
-          <!-- <div class="collapse navbar-collapse" id="navbarSupportedContent"> -->
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a href="./index.html" class="btn btn-secondary btn-set ">Home</a>
-                
-              </li>
-              <li class="nav-item">
-                <a href="./comic.html" class="btn btn-secondary btn-set active">Comic</a>
-
-              </li>
-              <li class="nav-item">
-                <a class="btn btn-secondary btn-set ">About</a>
-     
-              </li>
-              <li class="nav-item">
-                <a class="btn btn-secondary btn-set ">Donate</a>
-     
-              </li>
-            </ul>
-          <!-- </div> -->
+        </div>
         </nav>
       </div>
     </div>
+    <!-- end navbar -->
     
 
     <!-- body -->
@@ -117,7 +111,7 @@
     <div class="box-des-comic">
         <div class="row">
             <div class="col-2 box-area-des">
-                <img src="/assets/img/image 14.png" alt="comic" class="img-comic" />
+                <img src="/assets/img/deadpool.jpg" alt="comic" class="img-comic" />
                 <div class="box-bookmark">
                     <button><i class="fa-solid fa-bookmark"></i> Bookmark</button>
                 </div>
@@ -185,13 +179,13 @@
         </span>
 
           <div class="row-issue">
-            <div class="btn btn-issue">
+            <a href="/showComic.html" class="btn btn-issue">
               <h3>First Issue</h3>
               <h1>Issue 1</h1>
-            </div>
+            </a>
             <div class="btn btn-issue">
               <h3>New Issue</h3>
-              <h1>Issue 22</h1>
+              <h1>Issue 9</h1>
             </div>
           </div>
 
@@ -201,39 +195,39 @@
 
         <div class="list-issue overflow-auto"  style="height: 270px;">
             <a class="btn btn-list-issue bg-light" >
-              <h4 class="m-0 ">Issue 22</h4>
+              <h4 class="m-0 ">Issue 9</h4>
               <p class="m-0">30 Januari 2022</p>
             </a>
             <a class="btn btn-list-issue bg-light">
-              <h4 class="m-0 ">Issue 21</h4>
+              <h4 class="m-0 ">Issue 8</h4>
               <p class="m-0">30 Januari 2022</p>
             </a>
             <a class="btn btn-list-issue bg-light">
-              <h4 class="m-0 ">Issue 20</h4>
+              <h4 class="m-0 ">Issue 7</h4>
               <p class="m-0">30 Januari 2022</p>
             </a>
             <a class="btn btn-list-issue bg-light">
-              <h4 class="m-0 ">Issue 19</h4>
+              <h4 class="m-0 ">Issue 6</h4>
               <p class="m-0">30 Januari 2022</p>
             </a>
             <a class="btn btn-list-issue bg-light">
-              <h4 class="m-0 ">Issue 18</h4>
+              <h4 class="m-0 ">Issue 5</h4>
               <p class="m-0">30 Januari 2022</p>
             </a>
             <a class="btn btn-list-issue bg-light">
-              <h4 class="m-0 ">Issue 17</h4>
+              <h4 class="m-0 ">Issue 4</h4>
               <p class="m-0">30 Januari 2022</p>
             </a>
             <a class="btn btn-list-issue bg-light">
-              <h4 class="m-0 ">Issue 19</h4>
+              <h4 class="m-0 ">Issue 3</h4>
               <p class="m-0">30 Januari 2022</p>
             </a>
             <a class="btn btn-list-issue bg-light">
-              <h4 class="m-0 ">Issue 18</h4>
+              <h4 class="m-0 ">Issue 2</h4>
               <p class="m-0">30 Januari 2022</p>
             </a>
             <a class="btn btn-list-issue bg-light">
-              <h4 class="m-0 ">Issue 17</h4>
+              <h4 class="m-0 ">Issue 1</h4>
               <p class="m-0">30 Januari 2022</p>
             </a>
         </div>
@@ -244,16 +238,53 @@
         <!-- section area -->
         <div class="section-area col-lg-3 col-sm-12 col-12 ">
             <div class="section-area">
-              <div class="chat-area  " >
-                <div class="chat-header">
-                  <h1>CHAT</h1>
+              <div class="rec-area"> 
+                <section class="rec-area-section">Recomend</section>
+                <div class="rec-area-com">
+                  <div class="rec-area-img col-4"><img src="./assets/img/deadpool.jpg" alt=""></div>
+                  <div class="rec-area-des col-8">
+                    <h5>Deadpool (2018)</h5>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                      aliquet, nisi vel consectetur egestas, nisi nisi consectetur
+                      ipsum, eget consectetur nisl nisi velit.
+                    </p>
+                  </div>
                 </div>
-                <div class=" text-chat overflow-auto text-black" style="height: 300px;">
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, reiciendis dignissimos, earum laboriosam fugit tempora provident corporis qui similique quia doloremque, adipisci eaque dolorum quod perferendis ipsam facilis error officiis?</p>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores et fugiat nisi pariatur quod mollitia quos voluptate. Perferendis quisquam veritatis, rerum autem voluptatibus architecto deserunt, officiis debitis repellendus neque exercitationem.</p>
+                <div class="rec-area-com">
+                  <div class="rec-area-img col-4"><img src="./assets/img/deadpool.jpg" alt=""></div>
+                  <div class="rec-area-des col-8">
+                    <h5>Deadpool (2018)</h5>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                      aliquet, nisi vel consectetur egestas, nisi nisi consectetur
+                      ipsum, eget consectetur nisl nisi velit.
+                    </p>
+                  </div>
+                </div>
+                <div class="rec-area-com">
+                  <div class="rec-area-img col-4"><img src="./assets/img/deadpool.jpg" alt=""></div>
+                  <div class="rec-area-des col-8">
+                    <h5>Deadpool (2018)</h5>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                      aliquet, nisi vel consectetur egestas, nisi nisi consectetur
+                      ipsum, eget consectetur nisl nisi velit.
+                    </p>
+                  </div>
+                </div>
+                <div class="rec-area-com">
+                  <div class="rec-area-img col-4"><img src="./assets/img/deadpool.jpg" alt=""></div>
+                  <div class="rec-area-des col-8">
+                    <h5>Deadpool (2018)</h5>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                      aliquet, nisi vel consectetur egestas, nisi nisi consectetur
+                      ipsum, eget consectetur nisl nisi velit.
+                    </p>
+                  </div>
                 </div>
               </div>
-
             </div>
         </div>
         <!-- end section area -->
@@ -264,7 +295,7 @@
       <div class="container-fluid footerr " >
         <div class="empty-area">&nbsp;</div>
         <div class="text-white">
-          <div class="py-3 my-4">
+          <div class="py-3">
             <ul class="nav justify-content-center border-bottom pb-3 mb-3">
               <li class="nav-item">
                 <a href="#" class="nav-link px-2 text-muted">Home</a>
